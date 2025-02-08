@@ -75,7 +75,7 @@ function App() {
   return (
     <div className="min-h-screen pt-20 bg-gray-100 dark:bg-dark-blue text-black dark:text-white">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-      <div className="flex flex-col items-center space-y-6 mb-8">
+      <div className="flex flex-col items-center space-y-6 mb-8 mx-2">
         {posts.map((post) => (
           <PostCard key={post.id} post={post} />
         ))}
